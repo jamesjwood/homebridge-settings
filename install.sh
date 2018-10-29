@@ -4,7 +4,7 @@ npm -g install homebridge --unsafe-perm
 npm -g install homebridge-broadlink-rf
 npm -g install homebridge-nest
 npm -g install homebridge-weather-plus
-cp ./settings.json ~/.homebridge/settings.json
+cp ./config.json ~/.homebridge/config.json
 
 cp com.homebridge.server.plist /Library/LaunchDaemons/com.homebridge.server.plist
 sudo chown $(whoami) ~/Library/LaunchAgents
